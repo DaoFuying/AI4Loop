@@ -8,8 +8,13 @@ Gene-gene chromatin interactions (GGIs) bring distal genes into spatial proximit
 ### This document provides a brief intro of running models in AI4Loop for training and testing. Before launching any job, make sure you have properly downloaded the AI4Loop code and you have prepared the dataset with the correct format.
 
 ## Required Package
+
 tensorflow-gpu (tested 2.2.0)
+
 scikit-learn (tested 0.23.2)
+
 pandas (tested 1.4.2)
+
 numpy ((tested 1.18.5)
+
 bedtools2-2.25.0
