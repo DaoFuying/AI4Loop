@@ -15,7 +15,7 @@ Gene-gene chromatin interactions (GGIs) bring distal genes into spatial proximit
 * numpy (tested 1.18.5) 
 * bedtools2-2.25.0 
 ## Datasets
-The models were trained on K562, GM12878, HeLaS3 and IMR90 Hi-C datasets separately. The data used to generate the datasets and build the modles are placed in the data/ folder. We will walk through an example with K562 dataset.
+The models were trained on K562, GM12878, HeLaS3 and IMR90 Hi-C datasets separately. The data used to generate the datasets and build the modles are placed in the `data/` folder. We will walk through an example with K562 dataset.
 
 ### Data generation and preprocessing
 The data generation and preprocessing scripts are placed under the `preprocess` directory.
