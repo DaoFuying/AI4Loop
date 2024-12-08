@@ -9,8 +9,9 @@ Gene-gene chromatin interactions (GGIs) bring distal genes into spatial proximit
 
 ## Required Package
 
-tensorflow-gpu (tested 2.2.0) 
+tensorflow-gpu (tested 2.2.0)
+
 scikit-learn (tested 0.23.2) 
 pandas (tested 1.4.2) 
-numpy ((tested 1.18.5) 
+numpy (tested 1.18.5) 
 bedtools2-2.25.0 
