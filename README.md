@@ -20,7 +20,7 @@ The models were trained on K562, GM12878, HeLaS3 and IMR90 Hi-C datasets separat
 ### Data generation and preprocessing
 The data generation and preprocessing scripts are placed under the `preprocess` directory.
 The main entry script is `pipe.sh`. This script will process the interactions, cluster the interactions,
-generate negative samples, generate distance-matched negative dataset. The details of the inputs to the script is shown below:
+generate negative samples, generate distance-matched negative dataset.
 ```shell
 mkdir out_dir
 bash preprocess/pipe.sh data/GM12878_HiC_loop.bedpe \
