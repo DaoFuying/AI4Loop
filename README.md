@@ -36,7 +36,14 @@ bash preprocess/pipe.sh data/K562_HiC_loop.bedpe \
                         out_dir
 
 ```
+### Distance-matched datasets
 
-
+```shell
+python data_preparation.py -m 1000 -e 500 \
+                      --pos_files out_dir/k562_ctcf.clustered_interactions.both_gene.bedpe \
+                      --neg_files out_dir/k562_ctcf.neg_pairs_5x.from_singleton_inter_tf_random.bedpe \
+                      -g hg19/hg19.fa \
+                      -n k562_ctcf_distance_matched -o out_dir
+```
 
 
