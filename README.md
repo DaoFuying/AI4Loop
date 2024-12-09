@@ -62,4 +62,6 @@ The `trainBiLSTM.py` is used to train model based on random-split strategy. The 
 python trainBiLSTM.py k562_ctcf out_dir
 ```
 ## AI4Loop application - model prediction
-We show 
+We use the results of the third part of the paper "AI4Loop application in Acute Myeloid Leukemia (AML)" as an example to introduce the application of AI4Loop. In this part, we hope to find AML GGI from the K562 cell line. To this end, we first obtained all K562 gene pairs from the RNA-Seq of K562, and extracted the 1,000 gene pairs with the highest prediction probability through model prediction, so that we can avoid predicting the gene pairs of the whole genome for each sample and reduce the computational pressure.
+
+Based on the selected 1,000 gene pairs of K562, we applied AI4Loop to mine AML-related GGI as follows.
