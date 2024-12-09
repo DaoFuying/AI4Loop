@@ -49,5 +49,7 @@ python data_preparation.py -m 1000 -e 500 \
 python h5pyTodf.py k562_ctcf out_dir
 
 ```
-
-
+## Extracting gene expression from RNA-Seq
+The `callRNAseq.py` is used to extracte gene expression features from RNA-Seq data. Here we already preprocessed the RNA-Seq data of the cell lines and stored them in `data/allRNAseq.tsv`.
+```shell
+python callRNAseq.py k562_ctcf out_dir
