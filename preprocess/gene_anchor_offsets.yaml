@@ -1,0 +1,15 @@
+mean_offsets:
+  helas3_ctcf: 0.0
+  gm12878_ctcf: 0.0
+  gm12878_polr2a: 0.0
+  k562_polr2a: 0.0
+  mcf7_polr2a: 0.0
+  imr90: 0.0
+std_offsets:
+  helas3_ctcf: 0.0
+  gm12878_ctcf: 0.0
+  gm12878_polr2a: 0.0
+  k562_polr2a: 0.0
+  mcf7_polr2a: 0.0 
+  imr90_ctcf: 0.0
+  
