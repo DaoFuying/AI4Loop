@@ -37,6 +37,7 @@ bash preprocess/pipe.sh data/K562_HiC_loop.bedpe \
 
 ```
 ### Distance-matched datasets
+The final dataset `k562_ctcf_distance_matched.csv` is placed under the `out_dir` directory after following steps:
 
 ```shell
 python data_preparation.py -m 1000 -e 500 \
@@ -44,6 +45,9 @@ python data_preparation.py -m 1000 -e 500 \
                       --neg_files out_dir/k562_ctcf.neg_pairs_5x.from_singleton_inter_tf_random.bedpe \
                       -g hg19/hg19.fa \
                       -n k562_ctcf_distance_matched -o out_dir
+
+python h5pyTodf.py k562_ctcf out_dir
+
 ```
 
 
