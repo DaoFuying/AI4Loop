@@ -37,7 +37,7 @@ bash preprocess/pipe.sh data/K562_HiC_loop.bedpe \
 
 ```
 ### Distance-matched datasets
-The final dataset `k562_ctcf_distance_matched.csv` is placed under the `out_dir` directory after following steps:
+The final dataset `k562_ctcf_distance_matched.csv` is placed under the `out_dir` directory after following steps. The datasets used in this study are placed under the `datasets` directory.
 
 ```shell
 python data_preparation.py -m 1000 -e 500 \
