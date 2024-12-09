@@ -61,4 +61,5 @@ The `trainBiLSTM.py` is used to train model based on random-split strategy. The 
 ```shell
 python trainBiLSTM.py k562_ctcf out_dir
 ```
-
+## AI4Loop application - prediction
+We show 
