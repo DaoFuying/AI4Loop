@@ -53,3 +53,12 @@ python h5pyTodf.py k562_ctcf out_dir
 The `callRNAseq.py` is used to extracte gene expression features from RNA-Seq data. Here we already preprocessed the RNA-Seq data of the cell lines and stored them in `data/allRNAseq.tsv`.
 ```shell
 python callRNAseq.py k562_ctcf out_dir
+
+```
+## Training model with random-split test
+The `trainBiLSTM.py` is used to train model based on random-split strategy. The models we trained in this study are placed under the `models` directory.
+
+```shell
+python trainBiLSTM.py k562_ctcf out_dir
+```
+
