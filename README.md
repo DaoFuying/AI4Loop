@@ -37,7 +37,7 @@ bash preprocess/pipe.sh data/K562_HiC_loop.bedpe \
 
 ```
 ### Distance-matched datasets
-The final dataset `k562_ctcf_distance_matched.csv` is placed under the `out_dir` directory after following steps. The datasets used in this study are placed under the `datasets` directory.
+Take K562 cell line as an example, the final dataset `k562_ctcf_distance_matched.csv` is placed under the `out_dir` directory after following steps. The datasets used in this study are placed under the `datasets` directory.
 
 ```shell
 python data_preparation.py -m 1000 -e 500 \
@@ -56,7 +56,7 @@ python callRNAseq.py k562_ctcf out_dir
 
 ```
 ## Training model with random-split test
-The `trainBiLSTM.py` is used to train model based on random-split strategy. The models of different cell lines we trained in this study are placed under the `/models` directory.
+The `trainBiLSTM.py` is used to train model based on random-split strategy. The models of different cell lines we trained in this study are placed under the `/models` directory. Take K562 cell line as an example here.
 
 ```shell
 python trainBiLSTM.py k562_ctcf out_dir
