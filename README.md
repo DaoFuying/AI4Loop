@@ -21,7 +21,7 @@ The models were trained on K562, GM12878, HeLaS3 and IMR90 Hi-C datasets separat
 *_ctcf_*.bed #CTCF peak file in BED format which is downlowded from ENCODE.
 v36Gene.bed # gene information of human genome in BED format.
 ```
-We will walk through an example with GM12878 dataset.
+We will walk through an example with K562 dataset.
 
 ### Data generation and preprocessing
 The data generation and preprocessing scripts are placed under the `preprocess` directory.
@@ -29,10 +29,10 @@ The main entry script is `pipe.sh`. This script will process the interactions, c
 generate negative samples, generate distance-matched negative dataset.
 ```shell
 mkdir out_dir
-bash preprocess/pipe.sh data/GM12878_HiC_loop.bedpe \
-                        data/v36Gene.bed \
-                        data/GM12878_ctcf_ENCFF256QBB.bed \
-                        gm12878_ctcf \
+bash preprocess/pipe.sh data/K562_HiC_loop.bedpe \
+                        data/genecode.v36Gene.map2.bed \
+                        data/K562_ctcf_ENCFF545EHA.bed \
+                        k562_ctcf \
                         out_dir
 
 ```
