@@ -19,7 +19,7 @@ The models were trained on K562, GM12878, HeLaS3 and IMR90 Hi-C datasets separat
 ```shell
 *_HiC_loop.bedpe #Interaction file in BEDPE format.
 *_ctcf_*.bed #CTCF peak file in BED format which is downlowded from ENCODE.
-v36Gene.bed # gene information of human genome in BED format.
+genecode.v36Gene.map2.bed # gene information of human genome in BED format.
 ```
 We will walk through an example with K562 dataset.
 
