@@ -56,7 +56,7 @@ python callRNAseq.py k562_ctcf out_dir
 
 ```
 ## Training model with random-split test
-The `trainBiLSTM.py` is used to train model based on random-split strategy. The models we trained in this study are placed under the `models` directory.
+The `trainBiLSTM.py` is used to train model based on random-split strategy. The models of different cell lines we trained in this study are placed under the `/models` directory.
 
 ```shell
 python trainBiLSTM.py k562_ctcf out_dir
