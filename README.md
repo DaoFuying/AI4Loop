@@ -64,4 +64,8 @@ python trainBiLSTM.py k562_ctcf out_dir
 ## AI4Loop application - model prediction
 We use the results of the third part of the paper "AI4Loop application in Acute Myeloid Leukemia (AML)" as an example to introduce the application of AI4Loop. In this part, we hope to find AML GGI from the K562 cell line. To this end, we first obtained all K562 gene pairs from the RNA-Seq of K562, and extracted the 1,000 gene pairs with the highest prediction probability through model prediction, so that we can avoid predicting the gene pairs of the whole genome for each sample and reduce the computational pressure.
 
-Based on the selected 1,000 gene pairs of K562, we applied AI4Loop to mine AML-related GGI as follows.
+Based on the 1,000 gene pairs, we applied AI4Loop to mine AML-related GGI as follows.In the `prediction` folder, `Genepairs_1000.bedpe` is the gene pair file to be predicted, which can be generated from RNA-Seq data; `Samples_RNASeqdata.bed` is the RNA-Seq data of the sample, in the format of a BED file; `Samples_RNASeqdata.bed.columns.txt` is the corresponding column name file. After that, you can use the script `AI4LoopPrediction.py` for multi-threaded prediction. Please modify the relevant configuration according to the actual situation and run it.
+
+```shell
+python AI4LoopPrediction.py
+```
