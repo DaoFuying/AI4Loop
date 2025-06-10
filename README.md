@@ -2,7 +2,7 @@
 
 Changes in 3D chromatin interactions may represent actionable vulnerabilities in cancer, yet comprehensive profiling at scale remains technically and financially challenging. Here, we present AI4Loop, a deep learning framework that predicts genome-wide promoter-promoter chromatin interactions directly from RNA-Seq data. Applied to over 12,000 samples from 32 cancer types in TCGA, AI4Loop uncovered pervasive oncogenic promoter-promoter interaction gains that outperform gene expression in predicting cancer types. To investigate therapeutic potential, we constructed a large-scale drug-chromatin interactions atlas using 50,000 compound-treated gene expression profiles, identifying candidate compounds that reverse cancer-specific chromatin interactions. Notably, Hi-C experiment confirmed that antibiotics eperezolid and radezolid reduced cancer-gain chromatin interactions. Therefore, AI4Loop provides a scalable platform for decoding the 3D regulatory genome and enables novel opportunities for precision oncology and drug repurposing.
 
-![image](workflow2.png)
+![image](workflow.png)
 
 ### This document provides a brief intro of running models in AI4Loop for training and testing. Before launching any job, make sure you have properly downloaded the AI4Loop code and you have prepared the dataset with the correct format.
 
