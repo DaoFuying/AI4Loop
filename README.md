@@ -72,6 +72,5 @@ python AI4LoopPrediction.py
 If you use our code, data, or models, please cite "Artificial Intelligence Prediction of Gene-Gene Chromatin Interactions Across 12,000 Cancer and Normal Samples Reveals Elevated Interactions in Cancers", thank you very much. If you have any questions, please contact: fuying.dao@ntu.edu.sg.
 
 ## Acknowledgments
-This research is supported by the National Research Foundation Singapore under the AI Singapore Programme (AISG Award No: AISG3-GV-2023-014) and by the Ministry of Education, Singapore under its Academic Research Fund Tier 1 Thematic (RT5/22), both awarded to M.J.F (PI). 
-
+This research is supported by the National Research Foundation Singapore under the AI Singapore Programme (AISG Award No: AISG3-GV-2023-014) and by the Ministry of Education, Singapore under its Academic Research Fund Tier 1 Thematic (RT5/22), both awarded to M.J.F (PI). This research is also supported by the Singapore Ministry of Health’s National Medical Research Council under its Singapore Translational Research Investigator Award STaR (MOH-000709) awarded to G.B.C (PI) and M.J.F(Co-I).
 
