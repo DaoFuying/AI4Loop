@@ -4,7 +4,7 @@
 
 AI4Loop was developed to infer 3D chromatin interaction states directly from widely available transcriptomic data. The framework was trained and benchmarked using Hi-C-derived gene-centered interactions from K562, GM12878, HeLaS3 and IMR90, and can be applied to clinical RNA-seq cohorts and perturbational transcriptomic profiles where matched Hi-C, HiChIP or other chromatin conformation assays are usually unavailable.
 
-![AI4Loop workflow](workflow3.png)
+![AI4Loop workflow](workflow.png)
 
 ## Key features
 
