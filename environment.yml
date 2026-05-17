@@ -1,0 +1,18 @@
+name: ai4loop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy>=1.18.5
+  - pandas>=1.4.2
+  - scikit-learn>=0.23.2
+  - scipy>=1.5.0
+  - h5py>=2.10.0
+  - matplotlib>=3.3.0
+  - pyyaml>=5.3.0
+  - tqdm>=4.50.0
+  - bedtools
+  - pip
+  - pip:
+      - tensorflow>=2.2.0
